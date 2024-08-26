@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Castoro", serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 160px;
+    font-size: 126px;
+    line-height: 192px;
+    letter-spacing: .8rem;
+}
+
+.vito-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.resume-title {
+    font-size: 126px;
+    line-height: 192px;
+    letter-spacing: .8rem;
+    margin-left: 50%;
+}
+
+.resume-desc {
+    background-color: #EFEFEF;
+    padding: 48px 0;
+}
+
+.desc {
+    width: 636px;
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: 50%;
+
+}
+
+.vito-lists-inner {
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+.vito-item {
+    width: 636px;
+    margin-bottom: 40px;
+}
+
+.vito-subject {
+    color: #AE0000;
+    font-size: 40px;
+    line-height: 60px;
+    border-bottom: 3px solid #AE0000;
+    margin-bottom: 16px;
+}
+
+.vito-item p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.vito-evans p,
+.awardss p {
+    margin-bottom: 8px;
+}
+
+.education p,
+.work p {
+    margin-bottom: 16px;
+}
+
+
+
+.vito-item span {
+    font-size: 20px;
+    font-style: italic;
+    color: #949494;
+    display: inline-block;
+}
+
+
+.footer {
+    background-color: #000000;
+    padding: 64px 0;
+}
+
+.footer-inner {
+    text-align: center;
+}
+
+.share-link {
+    margin-right: 40px;
+}
